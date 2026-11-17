@@ -7,7 +7,7 @@
 A tiny chess engine in 4 KB of Python for the [tiny-chess-01](https://make.fun/bounty/tiny-chess-01) bounty: build the strongest chess engine in 4 KB of Python.
 
 - **Engine:** PVS + transposition table + quiescence + tapered piece-square eval. Fixed node budget, fully deterministic.
-- **Book:** 2 fastest-mate lines so far (semi-slav vs depth-2, mate in 16; sicilian-najdorf vs depth-3, mate in 11), found against the real gauntlet and verified by replay. The engine plays every other position. Practice trial-0: 3-1-2, spare 386.
+- **Book:** 6 fastest-mate lines so far (semi-slav vs depth-2, mate in 16; sicilian-najdorf vs depth-3, mate in 11; sicilian-classical vs depth-2, mate in 15; catalan vs depth-3, mate in 12; kings-indian-attack vs depth-2, mate in 18; ruy-lopez-morphy vs depth-3, mate in 10), found against the real gauntlet and verified by replay. The engine plays every other position. Practice trials: trial-0 3-1-2 spare 386; trial-1 3-1-2 spare 405; trial-2 2-1-3 spare 329.
 - **Entry point:** `main.py` (packed by `makefun compress` from the readable `source.py`).
 
 ## Play
